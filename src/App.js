@@ -2,10 +2,6 @@ import React, {Component} from 'react';
 import './App.css';
 import SearchResult from './components/SearchResult'
 
-//http://hn.algolia.com/api/v1/search?query=...
-//http://hn.algolia.com/api/v1/search?query=bar&tags=author_:USERNAME
-//https://hn.algolia.com/api/v1/search_by_date?tags=comment&numericFilters=created_at_i>1
-
 class App extends Component {
   constructor(props) {
     super(props);
