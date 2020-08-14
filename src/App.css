@@ -1,0 +1,9 @@
+.flexRow {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.flexRow h2:hover {
+    cursor:pointer;
+}
